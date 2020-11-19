@@ -5,3 +5,18 @@
 // Lista de premiums.
 // Buscar sorteos.
 // Sorteos cercanos a finalizar.
+
+import React, { Component } from 'react'
+import RaffleListWithFriends from './RaffleListWithFriends'
+
+export default class PrincipalPage extends Component {
+
+
+    render() {
+        return (
+            <div>
+
+            </div>
+        )
+    }
+}
