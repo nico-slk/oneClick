@@ -1,8 +1,10 @@
 import React from 'react';
-import AppRouter from './components/auth/AppRouter';
+import AppRoutes from './components/auth/AppRoutes';
 
 function App() {
-    <AppRouter />
+    return (
+        <AppRoutes />
+    )
 }
 
 export default App;

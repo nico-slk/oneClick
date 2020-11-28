@@ -1,15 +1,15 @@
 import React from 'react'
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom'
-import PrincipalPage from '../PrincipalPage'
-import AuthRouter from './AuthRouter'
+import PrincipalPageScreen from '../screens/PrincipalPageScreen'
+import AuthRoutes from './AuthRoutes'
 
-function AppRouter() {
+function AppRoutes() {
     return (
         <BrowserRouter >
             <div>
                 <Switch>
-                    <Route path="/" component={PrincipalPage} />
-                    <Route exact path="/auth" component={AuthRouter} />
+                    <Route path="/auth" component={AuthRoutes} />
+                    <Route exact path="/" component={PrincipalPageScreen} />
                     <Redirect to="/auth" />
                 </Switch>
             </div>
@@ -17,4 +17,4 @@ function AppRouter() {
     )
 }
 
-export default AppRouter
+export default AppRoutes

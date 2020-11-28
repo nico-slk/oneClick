@@ -7,7 +7,7 @@
 
 import React from 'react'
 
-function LogIn() {
+function LogInScreen() {
     return (
         <div>
             <h1>Pagina de logueo/inicio</h1>
@@ -22,4 +22,4 @@ function LogIn() {
     )
 }
 
-export default LogIn
+export default LogInScreen

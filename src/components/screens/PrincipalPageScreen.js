@@ -8,7 +8,7 @@
 
 import React, { Component } from 'react'
 
-export default class PrincipalPage extends Component {
+export default class PrincipalPageScreen extends Component {
 
 
     render() {
