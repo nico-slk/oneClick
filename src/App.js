@@ -1,19 +1,8 @@
 import React from 'react';
-import PrincipalPage from './components/PrincipalPage'
-import LogIn from './components/LogIn'
+import AppRouter from './components/auth/AppRouter';
 
-function App(props) {
-  const auth = props.auth
-
-  if (auth.isLoaded) {
-    return (
-      <PrincipalPage />
-    )
-  } else {
-    return (
-      <LogIn />
-    )
-  }
+function App() {
+    <AppRouter />
 }
 
 export default App;
