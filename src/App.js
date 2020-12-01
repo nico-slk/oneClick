@@ -1,9 +1,13 @@
 import React from 'react';
-import AppRoutes from './components/auth/AppRoutes';
+import { Provider } from 'react-redux';
+import AppRoutes from './routes/AppRoutes';
+import { store } from './store/store';
 
 function App() {
     return (
-        <AppRoutes />
+        <Provider store={store} >
+            <AppRoutes />
+        </Provider>
     )
 }
 

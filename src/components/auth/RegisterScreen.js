@@ -25,10 +25,13 @@
 // - Crear cuenta con IG.
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function LogIn() {
     return (
         <div>
+            <Link to="/" className="mr-3 btn btn-primary">Pagina principal</Link>
+            <Link to="/auth/login" className="mr-3 btn btn-primary">Login</Link>
             <h1>Acá se crean usuarios/empresas</h1>
             <ul>
                 <li><h4>Usuarios</h4></li>

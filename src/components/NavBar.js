@@ -3,7 +3,7 @@
 import React from 'react'
 import logo from '../click.png';
 
-function NavBar(props) {
+function NavBar() {
     return (
         <div>
             <header>
